@@ -8,15 +8,35 @@ body{
     font-family: 'PT Sans Caption', sans-serif;
 }
 
-
-
-
-
 section.box{
     height: 100vh;
     position: relative;
 }
 
+nav{
+    position:absolute;
+    right:0;
+    top:1rem;
+}
+
+nav>ul>li{
+    display: inline-block;
+    margin-right: 3rem;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    border-radius: 50%;
+    border-radius: 50%;
+    background-color: #ffffff;
+    font-weight: bolder;
+}
+
+nav>ul>li>a{
+    text-decoration: none;
+    color:black;
+}
 section.box.red{
     background-color: red;
 }
