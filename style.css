@@ -36,12 +36,18 @@ section>div.container{
     transform: translate(-50%,-50%);
 }
 div.container>img{
-    width: 80%;
+    width: 90%;
 }
 
 div.container>h3{
-    font-size: 2.2rem;
-    width: 80%;
-    text-align: center;    
-    color:#ffff00;
+    font-size: 2.5rem;
+    width: 90%;
+    text-align: center;  
+    padding-right: 2rem;  
+    color:yellow;
+    
+}
+
+section:last-of-type h3{
+    color:green;
 }
