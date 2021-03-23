@@ -2,4 +2,46 @@
     box-sizing: border-box;
     padding:0;
     margin:0;
+    
+}
+body{
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+
+
+
+
+section.box{
+    height: 100vh;
+    position: relative;
+}
+
+section.box.red{
+    background-color: red;
+}
+
+section.box.green{
+    background-color: green;
+}
+
+section.box.yellow{
+    background-color: yellow;
+}
+
+section>div.container{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+div.container>img{
+    width: 80%;
+}
+
+div.container>h3{
+    font-size: 2.2rem;
+    width: 80%;
+    text-align: center;    
+    color:#ffff00;
 }
